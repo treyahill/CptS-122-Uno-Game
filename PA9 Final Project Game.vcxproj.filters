@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\Blue Cards">
+      <UniqueIdentifier>{7b5270f0-c3d2-4c5f-8fde-7ee97e5183e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Green Cards">
+      <UniqueIdentifier>{81179041-ac52-482a-bd8b-41112da2be74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Wild Cards">
+      <UniqueIdentifier>{ebbc16d1-36bd-47ba-a0ff-fdeea99ac001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Yellow Cards">
+      <UniqueIdentifier>{37fb5f77-0c54-4350-b8de-a7616da4020a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Red Cards">
+      <UniqueIdentifier>{d2dfd937-91fc-4a7b-92d6-ded8fbe1887e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Card.hpp">
@@ -35,22 +50,198 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Deck.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Game.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Card.cpp">
-      <Filter>Resource Files</Filter>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Uno Cards\Blue\0.Zero.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\1.One.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\2.Two.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\3.Three.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\4.Four.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\5.Five.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\6.Six.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\7.Seven.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\8.Eight.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\9.Nine.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\Empty.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\PlusTwo.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\Reverse.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Blue\Skip.png">
+      <Filter>Resource Files\Blue Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\1.One.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\2.Two.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\3.Three.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\4.Four.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\5.Five.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\6.Six.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\7.Seven.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\8.Eight.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\9.Nine.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\Empty.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\PlusTwo.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\Reverse.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\Skip.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\0.Zero.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\1.One.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\2.Two.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\3.Three.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\4.Four.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\5.Five.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\6.Six.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\7.Seven.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\8.Eight.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\9.Nine.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\Empty.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\PlusTwo.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\Reverse.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Yellow\Skip.png">
+      <Filter>Resource Files\Yellow Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\0.Zero.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\1.One.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\2.Two.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\3.Three.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\4.Four.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\5.Five.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\6.Six.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\7.Seven.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\8.Eight.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\9.Nine.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\Empty.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\PlusTwo.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\Reverse.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Green\Skip.png">
+      <Filter>Resource Files\Green Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Wild\WildCard.png">
+      <Filter>Resource Files\Wild Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Wild\WildPlusFour.png">
+      <Filter>Resource Files\Wild Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\R.Zero.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Ideas.bat">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
 </Project>

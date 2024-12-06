@@ -12,10 +12,10 @@ std::vector<Card> Deck::GenerateDeck(std::vector<Card>& deck) {
 
 	empty.SetValue(WILD_FOUR);	// Start Card at WILD_FOUR (Lowest Card)
 
-	while (empty.GetValue() <= NINE) {	// Iterate Through Every Card Value
+	while (empty.GetValue() <= NINE) {	// Iterate Through Every Card Value // (fixed card generation yay!)
 
 #pragma region .	Wild.Check
-		if (empty.GetValue() <= WILD) {			// ---
+		if (empty.GetValue() <= WILD) {			// --- //when generating "Wilds", the program creates wild cards for each color (need to fix somehow)
 			empty.SetWild(true);				// Wild Card Check and Set
 		}										//
 		else empty.SetWild(false);				// ---
@@ -47,7 +47,7 @@ std::vector<Card> Deck::GenerateDeck(std::vector<Card>& deck) {
 		// Wild Cards are Created with an inherent color but they will be Set when played
 
 #pragma region .	Iterate.Card
-		if(empty.GetValue() != NINE) empty.SetValue(empty.GetValue() + 1);	// Iterate the Card
+		empty.SetValue(empty.GetValue() + 1);	// Iterate the Card
 #pragma endregion
 
 	}

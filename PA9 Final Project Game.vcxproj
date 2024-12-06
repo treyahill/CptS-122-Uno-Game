@@ -153,6 +153,66 @@
   <ItemGroup>
     <None Include="Ideas.bat" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Uno Cards\Blue\0.Zero.png" />
+    <Image Include="Uno Cards\Blue\1.One.png" />
+    <Image Include="Uno Cards\Blue\2.Two.png" />
+    <Image Include="Uno Cards\Blue\3.Three.png" />
+    <Image Include="Uno Cards\Blue\4.Four.png" />
+    <Image Include="Uno Cards\Blue\5.Five.png" />
+    <Image Include="Uno Cards\Blue\6.Six.png" />
+    <Image Include="Uno Cards\Blue\7.Seven.png" />
+    <Image Include="Uno Cards\Blue\8.Eight.png" />
+    <Image Include="Uno Cards\Blue\9.Nine.png" />
+    <Image Include="Uno Cards\Blue\Empty.png" />
+    <Image Include="Uno Cards\Blue\PlusTwo.png" />
+    <Image Include="Uno Cards\Blue\Reverse.png" />
+    <Image Include="Uno Cards\Blue\Skip.png" />
+    <Image Include="Uno Cards\Green\0.Zero.png" />
+    <Image Include="Uno Cards\Green\1.One.png" />
+    <Image Include="Uno Cards\Green\2.Two.png" />
+    <Image Include="Uno Cards\Green\3.Three.png" />
+    <Image Include="Uno Cards\Green\4.Four.png" />
+    <Image Include="Uno Cards\Green\5.Five.png" />
+    <Image Include="Uno Cards\Green\6.Six.png" />
+    <Image Include="Uno Cards\Green\7.Seven.png" />
+    <Image Include="Uno Cards\Green\8.Eight.png" />
+    <Image Include="Uno Cards\Green\9.Nine.png" />
+    <Image Include="Uno Cards\Green\Empty.png" />
+    <Image Include="Uno Cards\Green\PlusTwo.png" />
+    <Image Include="Uno Cards\Green\Reverse.png" />
+    <Image Include="Uno Cards\Green\Skip.png" />
+    <Image Include="Uno Cards\Red\R.Zero.png" />
+    <Image Include="Uno Cards\Red\1.One.png" />
+    <Image Include="Uno Cards\Red\2.Two.png" />
+    <Image Include="Uno Cards\Red\3.Three.png" />
+    <Image Include="Uno Cards\Red\4.Four.png" />
+    <Image Include="Uno Cards\Red\5.Five.png" />
+    <Image Include="Uno Cards\Red\6.Six.png" />
+    <Image Include="Uno Cards\Red\7.Seven.png" />
+    <Image Include="Uno Cards\Red\8.Eight.png" />
+    <Image Include="Uno Cards\Red\9.Nine.png" />
+    <Image Include="Uno Cards\Red\Empty.png" />
+    <Image Include="Uno Cards\Red\PlusTwo.png" />
+    <Image Include="Uno Cards\Red\Reverse.png" />
+    <Image Include="Uno Cards\Red\Skip.png" />
+    <Image Include="Uno Cards\Wild\WildCard.png" />
+    <Image Include="Uno Cards\Wild\WildPlusFour.png" />
+    <Image Include="Uno Cards\Yellow\0.Zero.png" />
+    <Image Include="Uno Cards\Yellow\1.One.png" />
+    <Image Include="Uno Cards\Yellow\2.Two.png" />
+    <Image Include="Uno Cards\Yellow\3.Three.png" />
+    <Image Include="Uno Cards\Yellow\4.Four.png" />
+    <Image Include="Uno Cards\Yellow\5.Five.png" />
+    <Image Include="Uno Cards\Yellow\6.Six.png" />
+    <Image Include="Uno Cards\Yellow\7.Seven.png" />
+    <Image Include="Uno Cards\Yellow\8.Eight.png" />
+    <Image Include="Uno Cards\Yellow\9.Nine.png" />
+    <Image Include="Uno Cards\Yellow\Empty.png" />
+    <Image Include="Uno Cards\Yellow\PlusTwo.png" />
+    <Image Include="Uno Cards\Yellow\Reverse.png" />
+    <Image Include="Uno Cards\Yellow\Skip.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
