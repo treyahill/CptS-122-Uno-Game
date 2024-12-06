@@ -3,7 +3,7 @@
 void Game::runGame() {
 	for (int i = 0; i < this->gameDeck.GetDeck().size(); i++) {
 		Card temp = this->gameDeck.GetDeck().at(i);
-		std::cout << temp.GetColor() << ' ' << temp.GetValue() << std::endl;
+		std::cout << temp.ColorToString(temp.GetColor()) << ' ' << temp.GetValue() << std::endl;
 	}
 
 

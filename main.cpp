@@ -8,16 +8,19 @@ int main() {
 	static float const winH = 500;
 	sf::RenderWindow window(sf::VideoMode(winW, winH), "Uno Game");
 
-	sf::RectangleShape base;
+	sf::RectangleShape base(sf::Vector2f(100, 50));
+	base.setPosition(10.f, 10.f);
 	sf::Color white = sf::Color::White;
 	sf::Color color = sf::Color::Red;
 
 	
 
 
-	Game Uno;
+	//Game Uno;
 	std::cout << 1;
-	Uno.runGame();
+	//Uno.runGame();
+
+	system("pause"); 
 
 	return 0;
 }

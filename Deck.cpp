@@ -25,22 +25,22 @@ std::vector<Card> Deck::GenerateDeck(std::vector<Card>& deck) {
 #pragma region .	Insert.Cards
 
 //	R E D   C A R D S
-		empty.SetColor(RED);					//
+		empty.SetColor(sf::Color::Red);					// changed all colors from type string to type Color, technically does not matter because our project will be using sprites, but it's chill beans
 		temp.insert(temp.begin(), empty);		//	Inserting RED Cards
 		if (empty.GetValue() != 0 && empty.GetValue() > WILD) temp.insert(temp.begin(), empty);	// Double of Correct Cards
 												
 //	B L U E   C A R D S
-		empty.SetColor(BLUE);					//
+		empty.SetColor(sf::Color::Blue);					//
 		temp.insert(temp.begin(), empty);		//	Inserting BLUE Cards
 		if (empty.GetValue() != 0 && empty.GetValue() > WILD) temp.insert(temp.begin(), empty);	// Double of Correct Cards
 		
 //	G R E E N   C A R D S
-		empty.SetColor(GREEN);					//
+		empty.SetColor(sf::Color::Green);					//
 		temp.insert(temp.begin(), empty);		//	Inserting GREEN Cards
 		if (empty.GetValue() != 0 && empty.GetValue() > WILD) temp.insert(temp.begin(), empty);	// Double of Correct Cards
 		
 //	Y E L L O W   C A R D S
-		empty.SetColor(YELLOW);					//	
+		empty.SetColor(sf::Color::Yellow);					//	
 		temp.insert(temp.begin(), empty);		//	Inserting YELLOW Cards
 		if (empty.GetValue() != 0 && empty.GetValue() > WILD) temp.insert(temp.begin(), empty);	// Double of Correct Cards
 #pragma endregion

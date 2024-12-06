@@ -1,4 +1,6 @@
 #pragma once
+
+#include <SFML/Graphics/Color.hpp>
 // Card Values
 const int OUTBOUND	= -6;
 const int WILD_FOUR	= -5;
