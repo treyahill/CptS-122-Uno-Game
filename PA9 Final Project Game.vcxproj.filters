@@ -64,46 +64,43 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Uno Cards\Blue\0.Zero.png">
+    <Image Include="Uno Cards\Blue\B.Zero.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\1.One.png">
+    <Image Include="Uno Cards\Blue\B.One.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\2.Two.png">
+    <Image Include="Uno Cards\Blue\B.Two.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\3.Three.png">
+    <Image Include="Uno Cards\Blue\B.Three.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\4.Four.png">
+    <Image Include="Uno Cards\Blue\B.Four.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\5.Five.png">
+    <Image Include="Uno Cards\Blue\B.Five.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\6.Six.png">
+    <Image Include="Uno Cards\Blue\B.Six.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\7.Seven.png">
+    <Image Include="Uno Cards\Blue\B.Seven.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\8.Eight.png">
+    <Image Include="Uno Cards\Blue\B.Eight.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\9.Nine.png">
+    <Image Include="Uno Cards\Blue\B.Nine.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\Empty.png">
+    <Image Include="Uno Cards\Blue\B.PlusTwo.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\PlusTwo.png">
+    <Image Include="Uno Cards\Blue\B.Reverse.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Blue\Reverse.png">
-      <Filter>Resource Files\Blue Cards</Filter>
-    </Image>
-    <Image Include="Uno Cards\Blue\Skip.png">
+    <Image Include="Uno Cards\Blue\B.Skip.png">
       <Filter>Resource Files\Blue Cards</Filter>
     </Image>
     <Image Include="Uno Cards\Red\1.One.png">

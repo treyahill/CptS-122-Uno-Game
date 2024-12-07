@@ -108,12 +108,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\binga\Source\Repos\treyahill\CptS-122-Uno-Game\SFML-2.6.2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>CptS-122-Uno-Game\SFML-2.6.2\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\binga\Source\Repos\treyahill\CptS-122-Uno-Game\SFML-2.6.2\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>CptS-122-Uno-Game\SFML-2.6.2\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -125,14 +125,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\binga\Source\Repos\treyahill\CptS-122-Uno-Game\SFML-2.6.2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>CptS-122-Uno-Game\SFML-2.6.2\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\binga\Source\Repos\treyahill\CptS-122-Uno-Game\SFML-2.6.2\lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>CptS-122-Uno-Game\SFML-2.6.2\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -154,20 +154,19 @@
     <None Include="Ideas.bat" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Uno Cards\Blue\0.Zero.png" />
-    <Image Include="Uno Cards\Blue\1.One.png" />
-    <Image Include="Uno Cards\Blue\2.Two.png" />
-    <Image Include="Uno Cards\Blue\3.Three.png" />
-    <Image Include="Uno Cards\Blue\4.Four.png" />
-    <Image Include="Uno Cards\Blue\5.Five.png" />
-    <Image Include="Uno Cards\Blue\6.Six.png" />
-    <Image Include="Uno Cards\Blue\7.Seven.png" />
-    <Image Include="Uno Cards\Blue\8.Eight.png" />
-    <Image Include="Uno Cards\Blue\9.Nine.png" />
-    <Image Include="Uno Cards\Blue\Empty.png" />
-    <Image Include="Uno Cards\Blue\PlusTwo.png" />
-    <Image Include="Uno Cards\Blue\Reverse.png" />
-    <Image Include="Uno Cards\Blue\Skip.png" />
+    <Image Include="Uno Cards\Blue\B.Zero.png" />
+    <Image Include="Uno Cards\Blue\B.One.png" />
+    <Image Include="Uno Cards\Blue\B.Two.png" />
+    <Image Include="Uno Cards\Blue\B.Three.png" />
+    <Image Include="Uno Cards\Blue\B.Four.png" />
+    <Image Include="Uno Cards\Blue\B.Five.png" />
+    <Image Include="Uno Cards\Blue\B.Six.png" />
+    <Image Include="Uno Cards\Blue\B.Seven.png" />
+    <Image Include="Uno Cards\Blue\B.Eight.png" />
+    <Image Include="Uno Cards\Blue\B.Nine.png" />
+    <Image Include="Uno Cards\Blue\B.PlusTwo.png" />
+    <Image Include="Uno Cards\Blue\B.Reverse.png" />
+    <Image Include="Uno Cards\Blue\B.Skip.png" />
     <Image Include="Uno Cards\Green\0.Zero.png" />
     <Image Include="Uno Cards\Green\1.One.png" />
     <Image Include="Uno Cards\Green\2.Two.png" />
