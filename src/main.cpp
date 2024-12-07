@@ -12,7 +12,7 @@ int main() {
 		sf::RectangleShape base(sf::Vector2f(100, 50));
 
         sf::Texture red_card;
-        if (!red_card.loadFromFile("logo.png")) {
+        if (!red_card.loadFromFile("assets/R.Zero.png")) {
             std::cout << "error loading image" << std::endl;
             return -1;
         }

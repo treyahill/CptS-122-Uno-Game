@@ -143,21 +143,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Card.hpp" />
-    <ClInclude Include="Deck.hpp" />
-    <ClInclude Include="Errors.hpp" />
-    <ClInclude Include="Game.hpp" />
-    <ClInclude Include="Player.hpp" />
-    <ClInclude Include="Shortcuts.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Card.cpp" />
-    <ClCompile Include="Deck.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Ideas.bat" />
+    <ClCompile Include="src\Card.cpp" />
+    <ClCompile Include="src\Deck.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Uno Cards\Blue\B.Zero.png" />
@@ -214,6 +203,18 @@
     <Image Include="Uno Cards\Yellow\Y.PlusTwo.png" />
     <Image Include="Uno Cards\Yellow\Y.Reverse.png" />
     <Image Include="Uno Cards\Yellow\Y.Skip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Card.hpp" />
+    <ClInclude Include="include\Color.hpp" />
+    <ClInclude Include="include\Deck.hpp" />
+    <ClInclude Include="include\Errors.hpp" />
+    <ClInclude Include="include\Game.hpp" />
+    <ClInclude Include="include\Player.hpp" />
+    <ClInclude Include="include\Shortcuts.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\Ideas.bat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
