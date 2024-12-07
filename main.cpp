@@ -13,7 +13,7 @@ int main() {
 
         sf::Texture red_card;
        
-        if (!red_card.loadFromFile("C:\R.Zero.png")) {
+        if (!red_card.loadFromFile("R.Zero.png")) {
             std::cout << "error loading image" << std::endl;
         }
 
