@@ -181,46 +181,43 @@
     <Image Include="Uno Cards\Yellow\Skip.png">
       <Filter>Resource Files\Yellow Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\0.Zero.png">
+    <Image Include="Uno Cards\Green\G.Zero.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\1.One.png">
+    <Image Include="Uno Cards\Green\G.One.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\2.Two.png">
+    <Image Include="Uno Cards\Green\G.Two.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\3.Three.png">
+    <Image Include="Uno Cards\Green\G.Three.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\4.Four.png">
+    <Image Include="Uno Cards\Green\G.Four.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\5.Five.png">
+    <Image Include="Uno Cards\Green\G.Five.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\6.Six.png">
+    <Image Include="Uno Cards\Green\G.Six.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\7.Seven.png">
+    <Image Include="Uno Cards\Green\G.Seven.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\8.Eight.png">
+    <Image Include="Uno Cards\Green\G.Eight.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\9.Nine.png">
+    <Image Include="Uno Cards\Green\G.Nine.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\Empty.png">
+    <Image Include="Uno Cards\Green\G.PlusTwo.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\PlusTwo.png">
+    <Image Include="Uno Cards\Green\G.Reverse.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Green\Reverse.png">
-      <Filter>Resource Files\Green Cards</Filter>
-    </Image>
-    <Image Include="Uno Cards\Green\Skip.png">
+    <Image Include="Uno Cards\Green\G.Skip.png">
       <Filter>Resource Files\Green Cards</Filter>
     </Image>
     <Image Include="Uno Cards\Wild\WildCard.png">
