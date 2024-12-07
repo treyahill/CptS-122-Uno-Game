@@ -1,11 +1,10 @@
 #include <iostream>
 #include "Game.hpp"
 #include <SFML/Graphics.hpp>
-#include <filesystem>
 
 int main() {
 
-	
+
 		static float const winW = 1000;
 		static float const winH = 500;
 
@@ -13,8 +12,7 @@ int main() {
 		sf::RectangleShape base(sf::Vector2f(100, 50));
 
         sf::Texture red_card;
-       
-        if (!red_card.loadFromFile("UnoCards/R.Zero.png")) {
+        if (!red_card.loadFromFile("SFML-2.6.2/examples/assets/logo.png")) {
             std::cout << "error loading image" << std::endl;
             return -1;
         }
