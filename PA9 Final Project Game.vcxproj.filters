@@ -104,9 +104,6 @@
     <Image Include="Uno Cards\Red\R.Seven.png">
       <Filter>Resource Files\Red Cards</Filter>
     </Image>
-    <Image Include="Uno Cards\Red\R.Eight.png">
-      <Filter>Resource Files\Red Cards</Filter>
-    </Image>
     <Image Include="Uno Cards\Red\R.Nine.png">
       <Filter>Resource Files\Red Cards</Filter>
     </Image>
@@ -204,6 +201,9 @@
       <Filter>Resource Files\Wild Cards</Filter>
     </Image>
     <Image Include="Uno Cards\Red\R.Zero.png">
+      <Filter>Resource Files\Red Cards</Filter>
+    </Image>
+    <Image Include="Uno Cards\Red\R.Eight.png">
       <Filter>Resource Files\Red Cards</Filter>
     </Image>
   </ItemGroup>

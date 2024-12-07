@@ -12,10 +12,12 @@ int main() {
 		sf::RectangleShape base(sf::Vector2f(100, 50));
 
         sf::Texture red_card;
-        if (!red_card.loadFromFile("assets/R.Zero.png")) {
+        if (!red_card.loadFromFile("Assets/R.Zero.png")) {
             std::cout << "error loading image" << std::endl;
             return -1;
         }
+
+        system("pause");
 
         sf::Sprite Red_card; Red_card.setTexture(red_card);
         Red_card.setScale(56.f / red_card.getSize().x, 89.f / red_card.getSize().y);
